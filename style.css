@@ -255,8 +255,8 @@ main {
     padding-top: 1.5rem;
 }
   
-.channel-thumbnail {
-    width: 48px;
+.channel-logo-img {
+	width: 48px;
     border-radius: 50%;
 }
   
@@ -270,7 +270,7 @@ main {
 }
   
 .channel-name-img {
-    width: 1.4rem;
+    width: 12px;
 }
   
 .channel-link {
