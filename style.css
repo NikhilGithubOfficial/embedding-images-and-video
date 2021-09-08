@@ -43,8 +43,9 @@ body {
 .home-btn {
     color: white;
     width: 80px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 500;
+	font-family: 'Roboto Condensed', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -200,91 +201,91 @@ main {
 
 .video-options {
     display: flex;
-  }
+}
   
-  .video-options .btn {
+.video-options .btn {
     display: flex;
     align-items: center;
     width: 100%;
     height: 32px;
     padding-left: 1rem;
     margin-left: 1rem;
-  }
+}
   
-  .video-options .btn img {
+.video-options .btn img {
     width: 20px;
     height: 20px;
-  }
+}
   
-  .video-options .btn span {
+.video-options .btn span {
     color: #aaa;
     font-size: 1.3rem;
     font-weight: 500;
     padding-left: 0.8rem;
-  }
+}
   
-  .likes-percents {
+.likes-percents {
     display: flex;
     padding-bottom: 1rem;
     padding-right: 1rem;
     border-bottom: 2px solid #aaa;
-  }
+}
   
-  .video-options .like-btn {
+.video-options .like-btn {
     margin: 0;
-  }
+}
   
-  .video-options .more-options-btn {
+.video-options .more-options-btn {
     padding: 0 1rem;
-  }
+}
   
-  .video-options .more-options-btn img {
+.video-options .more-options-btn img {
     align-self: flex-end;
     width: 24px;
     height: 24px;
-  }
+}
   
-  /* description */
+/* description */
   
-  /* channel-info */
+/* channel-info */
   
-  .channel-info {
+.channel-info {
     display: flex;
     align-items: center;
     padding-top: 1.5rem;
-  }
+}
   
-  .channel-logo img {
+.channel-thumbnail {
     width: 48px;
     border-radius: 50%;
-  }
+}
   
-  .channel-primary-info {
+.channel-primary-info {
     padding-left: 1.5rem;
-  }
+}
   
-  .channel-name {
+.channel-name {
     display: flex;
     align-items: center;
-  }
+}
   
-  .channel-name img {
+.channel-name-img {
     width: 1.4rem;
-  }
+}
   
-  .channel-link {
+.channel-link {
     width: auto;
     padding-right: 0.4rem;
     text-decoration: none;
     font-size: 1.4rem;
-  }
+}
   
-  .channel-subscribers-count {
+.channel-subscribers-count {
     color: #aaa;
     font-size: 1.3rem;
-  }
+}
   
-  .subscribe-btn {
+.subscribe-btn {
     width: auto;
     height: auto;
     margin-left: auto;
@@ -293,67 +294,55 @@ main {
     font-size: 1.4rem;
     font-weight: 500;
     background-color: #bd0000;
-  }
+	color: white;
+}
   
-  .video-description {
+.video-description {
     margin-top: 1rem;
     padding-left: 6.3rem;
     border-bottom: 1px solid rgba(170, 170, 170, 0.2);
-  }
+}
   
-  .video-description-para {
+.video-description-para {
     font-size: 1.4rem;
-  }
-  
-  .game-info {
-    margin-top: 1.6rem;
-    display: grid;
-    grid-gap: 1.6rem;
-    grid-auto-flow: column;
-  }
-  
-  @media only screen and (max-width: 630px) {
-    .game-info {
-      grid-auto-flow: row;
-    }
-  }
+}
 
 /* aside */
 
 aside {
     grid-column: 2;
     grid-row: 1 / span 2;
-  }
+}
   
-  /* up-next */
+/* up-next */
   
-  .up-next {
+.up-next {
     margin-bottom: 0.5rem;
     padding-bottom: 1.5rem;
     border-bottom: 1px solid rgba(170, 170, 170, 0.2);
-  }
+}
   
-  .autoplay {
+.autoplay {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 0.5rem;
-  }
+}
   
-  .autoplay > span {
+.autoplay > span {
     flex-grow: 1;
     font-size: 1.6rem;
-  }
+}
   
-  .autoplay span ~ span {
+.autoplay span ~ span {
     padding-right: 1rem;
     flex-grow: 0;
     color: #aaa;
     font-size: 1.3rem;
     font-weight: 500;
-  }
+}
   
-  .switch {
+.switch {
     position: relative;
     display: flex;
     align-items: center;
@@ -362,9 +351,9 @@ aside {
     border-radius: 15px;
     border: none;
     background-color: rgb(66, 66, 66);
-  }
+}
   
-  .switch::before {
+.switch::before {
     content: '';
     position: absolute;
     right: 0;
@@ -373,7 +362,7 @@ aside {
     border-radius: 50%;
     background-color: #3ea6ff;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
-  }
+}
   
   
   
