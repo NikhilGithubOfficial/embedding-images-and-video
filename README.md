@@ -1,6 +1,6 @@
 # youtube-clone
 A clone of a YouTube video page.
-- [Live demo.](https://nikhilgithubofficial.github.io/youtube-clone/)
+- [Live demo.](https://theproficientdev.github.io/youtube-clone/)
 
 ## Features
 - Embedded YouTube video player.
